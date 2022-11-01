@@ -12,13 +12,16 @@
     </header>
     <div class="flex-container">
         <div class="nav-bar">
-            <li>Option 1</li>
-            <li>Option 2</li>
-            <li>Option 3</li>
+            <li><a href="#">Home</li></a>
+            <li><a href="#">Back</li>
+            <li><a href="#">Forward</li></a>
         </div>
             <h1 id="main-title">Main Title</h1></div>
     <section id="section1">
-        <div class ="border" id="quote-display"><h2>Quote of the Moment</h2></div>
+        <div class ="border" id="quote-display"><h2>Quote of the Moment</h2>
+        <div id="quote-of-the-day"> </div>
+        </div>
+      
         <div class ="border" id="quote-info"><h2>Information</h2> </div>
     </section>
     <section id="section2">
@@ -32,16 +35,17 @@
         </ul>
     </div> 
     <div class="border">
-    <p class ="generate-quote" input type = "button" id="quote-of-the-day">Generate New Quote</p>
-    <h3 id="submit-button">Submit Your Own Quote</h3></div>
-    <form id="quote-form">
+    <p class ="generate-quote" input type = "button">Generate New Quote</p>
+    <div>
+    <form class = "border" id="quote-form">
+    <h3 id="submit-button">Submit Your Own Quote</h3>
         <label for="quote">Quote:</label><br>
         <input type="text"><br>
         <label for="speaker">Spoken By:</label><br>
         <input type="text"><br>
         <label for="from">From what book or movie:</label><br>
         <input type="text"><br>
-    </form></section>
+    </form></div>
     <script src="app.js"></script>
 </body>
 </html>
