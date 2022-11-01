@@ -1,0 +1,61 @@
+.nav-bar {
+   width: 100px;
+   padding: 2em;
+   background-color: #eee;
+   text-align: left;
+}
+.nav-bar > li {
+   display: flex;
+   flex-direction: column;
+   justify-content: left;
+}
+
+.flex-container {
+   display: flex;
+   flex-direction: row ;
+}
+
+#main-title {
+   margin: 45px;
+   font-style: oblique;
+}
+
+#section1 {
+   display: grid;
+   grid-template-columns: 50% 50% ;
+   grid-column-gap: 10px;
+}
+
+.border {
+   border-style: solid;
+   border-width: 2px;
+   border-radius: 5px;
+   text-align: center;
+   margin: 5px
+}
+
+#section2 {
+   display: grid;
+   grid-template-columns: 50% 50% ;
+   grid-column-gap: 10px;
+}
+
+.packing-list > li {
+   text-align: center;
+   list-style-position: inside;
+} /*could not get the bullets line up at the same place*/
+
+.left-bullet {
+text-align: center;
+}
+
+.generate-quote {
+   background-color: #4CAF50;
+   color: white;
+   width: 30%;
+   text-align: center;
+   font-size: 16px;
+   padding: 12px 28px;
+   border-radius: 5px;
+   margin: auto;
+}

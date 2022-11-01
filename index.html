@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Epic Adventures Quote Generator</title>
+</head>
+<body>
+    <header id="banner"><img id ="banner-image" src="https://live.staticflickr.com/65535/52469206009_cf3c4a1440_w.jpg" alt="Banner Background" width="1540" height="235">
+    </header>
+    <div class="flex-container">
+        <div class="nav-bar">
+            <li>Option 1</li>
+            <li>Option 2</li>
+            <li>Option 3</li>
+        </div>
+            <h1 id="main-title">Main Title</h1></div>
+    <section id="section1">
+        <div class ="border" id="quote-display"><h2>Quote of the Moment</h2></div>
+        <div class ="border" id="quote-info"><h2>Information</h2> </div>
+    </section>
+    <section id="section2">
+        <div class="border">
+        <h2 id="things-to-bring">Things to Bring on an Adventure:</h2>
+        <ul class="packing-list">
+            <li class="left-bullet">Weapon of Choice</li>
+            <li class="left-bullet">Magical Amulet</li>
+            <li class="left-bullet">Food and Water</li>
+            <li class="left-bullet">Travel Companion</li>
+        </ul>
+    </div> 
+    <div class="border">
+    <p class ="generate-quote" input type = "button" id="quote-of-the-day">Generate New Quote</p>
+    <h3 id="submit-button">Submit Your Own Quote</h3></div>
+    <form id="quote-form">
+        <label for="quote">Quote:</label><br>
+        <input type="text"><br>
+        <label for="speaker">Spoken By:</label><br>
+        <input type="text"><br>
+        <label for="from">From what book or movie:</label><br>
+        <input type="text"><br>
+    </form></section>
+    <script src="app.js"></script>
+</body>
+</html>
